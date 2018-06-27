@@ -1,6 +1,6 @@
 import React from "react";
 
-class topSongs extends React.Component {
+class TopSongs extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -17,10 +17,10 @@ class topSongs extends React.Component {
     return (
       <div className="top-songs">
         <h1>Top Songs on iTunes</h1>
-        <topSongs songs={this.state.songs} />
+        <TopSongs songs={this.state.songs} />
       </div>
     );
   }
 }
 
-export default topSongs;
+export default TopSongs;

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import topSongs from "./containers/topSongs";
+import TopSongs from "./containers/topSongs";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <topSongs />
+        <TopSongs />
       </div>
     );
   }
