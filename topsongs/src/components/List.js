@@ -13,7 +13,7 @@ class List extends Component {
     }
 
     render() {
-      const SongList = this.props.songs.map((song, index) => (
+      const List = this.props.songs.map((song, index) => (
         <Songs
           key={index+1}
           position={index+1}
