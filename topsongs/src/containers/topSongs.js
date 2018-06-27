@@ -15,8 +15,9 @@ class topSongs extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>Top Songs on iTunes:</h1>
+      <div className="top-songs">
+        <h1>Top Songs on iTunes</h1>
+        <topSongs songs={this.state.songs} />
       </div>
     );
   }
